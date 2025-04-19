@@ -1,28 +1,25 @@
-# Advanced HTML5 Elements and Forms
 
-## Objectives
-Implement HTML5 images, lists, tables, forms and input types.
-Use form validation attributes.
-Apply multimedia elements such as audio and video.
+# Create an empty list
+my_list = []
 
-## Instructions
+# Append elements
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
 
-- Create an index.html file.
-- Add an ordered list with roman numerals
-- Add an external image from pexels.com
-- Add a table of 5 contacts with; name, address, mobile and emails
-- Add a registration form
+# Insert 15 at the second position (index 1)
+my_list.insert(1, 15)
 
->[!NOTE]
->  The registration form should have:
->- Name, email, password, and date fields.
->- A dropdown, radio buttons, and checkboxes.
->- Proper labels and placeholders.
->- Required fields and validation attributes.
->- Ensure proper indentation and commenting.
- 
-# Tasks
-- Create a well-structured HTML5 document.
-- Ensure semantic correctness.
+# Extend with another list
+my_list.extend([50, 60, 70])
 
-Happy Coding! 💻✨
+# Remove the last element
+my_list.pop()
+
+# Sort the list in ascending order
+my_list.sort()
+
+# Find and print the index of value 30
+index_of_30 = my_list.index(30)
+print("Index of 30:", index_of_30)
